@@ -1,0 +1,15 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping ext="csv" type="Native" />
+      <mapping pattern="模块编号说明" type="PLAIN_TEXT" />
+      <mapping pattern="子项目编号.txt" type="PLAIN_TEXT" />
+      <mapping pattern="VERSION" type="PLAIN_TEXT" />
+      <mapping ext="md" type="PLAIN_TEXT" />
+      <mapping ext="lnk" type="PLAIN_TEXT" />
+      <mapping ext="btl" type="PLAIN_TEXT" />
+      <mapping ext="ini" type="PLAIN_TEXT" />
+      <mapping ext="http" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>

@@ -1,0 +1,20 @@
+<templateSet group="LJX">
+  <template name="/**" value="/**&#10; * $cur$&#10; *&#10; * @params $params$&#10; * @Author LJX&#10; * @Date $date$&#10; */" description="add comment" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="cur" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="params" expression="methodParameters()" defaultValue="" alwaysStopAt="true" />
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="syso" value="System.out.println(&quot;$cur$&quot;);" description="System.out" toReformat="false" toShortenFQNames="true">
+    <variable name="cur" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ifempty" value="if ($str$ == null || &quot;&quot;.equals($str$)) {&#10;&#9;&#10;}" description="if str is empty" toReformat="false" toShortenFQNames="true">
+    <variable name="str" expression="variableOfType(&quot;String&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

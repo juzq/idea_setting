@@ -1,0 +1,13 @@
+<application>
+  <component name="UISettings">
+    <option name="COLOR_BLINDNESS" value="deuteranopia" />
+    <option name="CONSOLE_COMMAND_HISTORY_LIMIT" value="1000" />
+    <option name="FONT_FACE" value="YaHei Consolas Hybrid" />
+    <option name="FONT_SCALE" value="1.0" />
+    <option name="FONT_SIZE" value="13" />
+    <option name="HIDE_TOOL_STRIPES" value="true" />
+    <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
+    <option name="SHOW_MAIN_TOOLBAR" value="true" />
+    <option name="SHOW_NAVIGATION_BAR" value="false" />
+  </component>
+</application>
